@@ -14,4 +14,14 @@ public class AdviceController {
     public Map<String, String> hello(){
         return Map.of("message","hello");
     }
+
+    @GetMapping("/error-test")
+    public String errorTest(){
+        throw new IllegalArgumentException("<UNK>");
+    }
+
+    @GetMapping("/error-test2")
+    public String errorTest2(){
+        throw new RuntimeException("<UNK>");
+    }
 }
