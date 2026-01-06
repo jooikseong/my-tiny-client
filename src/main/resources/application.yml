@@ -1,0 +1,5 @@
+my:
+  api:
+    enabled: true
+    api-key: "ABC-12345-XYZ"
+    base-url: "https://kakao-api.com"
