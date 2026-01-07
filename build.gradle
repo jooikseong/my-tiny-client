@@ -35,7 +35,7 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
 //    implementation files('libs/my-tiny-library-1.0.0.jar')
-    implementation 'com.github.jooikseong:my-tiny-library:v1.0.8'
+    implementation 'com.github.jooikseong:my-tiny-library:v1.0.9'
 }
 
 tasks.named('test') {
